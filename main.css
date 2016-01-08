@@ -1,0 +1,116 @@
+html,body {
+	height: 100%;
+	background-color: hsl(175,20%,15%);
+	margin: 0px;
+	padding: 0px;
+}
+
+header {
+	position: relative;
+	width: 100%;
+}
+
+header h1 {
+	position: relative;
+	text-align: center;
+	color: hsl(0,40%,50%);
+	padding: 1%;
+	margin: 0;
+	font-size: 6vh;	
+}
+/***************** FORM 1 *******************/
+section.form1 {
+	float: left;
+	position: relative;
+	height: 45%;
+	width: 50%;
+}
+
+div.form1 {
+	position: absolute;
+	background-color: hsl(175,30%,20%);
+	top: 5%;
+	right: 2.5%;
+	bottom: 5%;
+	left: 2.5%;
+
+	color: white;
+	line-height: 4;
+}
+
+.form1 label {
+	float: left;
+	text-align: right;
+	margin-right: 15px;
+	width: 10%;
+}
+
+.form1 input, .form1 select {
+	background-color: transparent;
+	color: hsl(0,40%,50%);
+	font-size: 2vh;
+	font-weight: bold;
+}
+
+.form1 input {
+	border: none;
+	text-decoration: underline;
+	width: 40%;
+}
+
+.form1 .message {
+	height: 10%;
+	width: 20%;
+	line-height: normal;
+}
+/***************** FORM 2 *******************/
+section.form2 {
+	float: right;
+	position: relative;
+	height: 45%;
+	width: 50%;
+}
+
+div.form2 {
+	position: absolute;
+	background-color: blue;
+	top: 5%;
+	right: 2.5%;
+	bottom: 5%;
+	left: 2.5%;
+
+}
+/***************** FORM 3 *******************/
+section.form3 {
+	float: left;
+	position: relative;
+	height: 45%;
+	width: 50%;
+}
+
+div.form3 {
+	position: absolute;
+	background-color: blue;
+	top: 5%;
+	right: 2.5%;
+	bottom: 5%;
+	left: 2.5%;
+
+}
+/***************** FORM 4 *******************/
+section.form4 {
+	float: right;
+	position: relative;
+	height: 45%;
+	width: 50%;
+}
+
+div.form4 {
+	position: absolute;
+	background-color: blue;
+	top: 5%;
+	right: 2.5%;
+	bottom: 5%;
+	left: 2.5%;
+
+}
